@@ -1,0 +1,17 @@
+{
+    "version": 0.26,
+    "image": "https://patreon.renpy.org/_static/news-banner.jpg",
+    "link": "https://www.patreon.com/posts/91890917",
+    "text": "This version is outdated. Click here to update to version 0.26.",
+
+    "bulletin_top": "Real-Time Bulletin",
+    "bulletin": [
+          "This is the sauce test! {a=https://www.patreon.com/posts/91890917}Update{/a}",
+          "I wanna play ball! {a=https://lovestorygames.net/dw-changelog/}More Info{/a}",
+          "UGH BRO JUST UGH! {a=https://lovestorygames.net/dw-changelog/}More Info{/a}"
+    ],
+
+    "patreon": "883886"
+
+
+}
