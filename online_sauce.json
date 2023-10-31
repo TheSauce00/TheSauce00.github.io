@@ -1,17 +1,23 @@
 {
-    "version": 0.26,
-    "image": "https://thesauce00.github.io/news-banner.jpg",
-    "link": "https://www.patreon.com/posts/91890917",
-    "text": "LOL WHAAAAAAT??? HAHA",
-
-    "bulletin_top": "Honkey Tonk Woman",
     "bulletin": [
-          "This is the sauce test! {a=https://www.patreon.com/posts/91890917}Update{/a}",
-          "I wanna play ball! {a=https://lovestorygames.net/dw-changelog/}More Info{/a}",
-          "UGH BRO JUST UGH! {a=https://lovestorygames.net/dw-changelog/}More Info{/a}"
+          {
+              "text": "Hello I'm the Sauce #1",
+              "img": "https://thesauce00.github.io/1.jpg",
+              "link": ""
+          },
+          {
+              "text": "Hello I'm the Sauce #2",
+              "img": "https://thesauce00.github.io/2.jpg",
+              "link": ""
+          },
+          {
+              "text": "Hello I'm the Sauce #3",
+              "img": "https://thesauce00.github.io/3.jpg",
+              "link": ""
+          }
     ],
-
-    "patreon": "883886"
-
+    "image": "https://thesauce00.github.io/1.jpg",
+    "link": "",
+    "text": "HAHAHAHAHA"
 
 }
