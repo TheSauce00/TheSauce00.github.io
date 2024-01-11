@@ -19,6 +19,7 @@
     "image": "https://thesauce00.github.io/1.jpg",
     "link": "",
     "updater": "",
-    "text": "This is the Web Updater Test!"
+    "text": "This is the Web Updater Test!",
+    "version": "0.01"
 
 }
