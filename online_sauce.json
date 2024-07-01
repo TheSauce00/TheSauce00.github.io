@@ -18,10 +18,12 @@
     ],
     "main_bulletin": [
         {
+            "id": 0,
             "img": "https://thesauce00.github.io/main_bulletin/1.jpg",
             "link": ""
         },
         {
+            "id": 1,
             "img": "https://thesauce00.github.io/main_bulletin/2.jpg",
             "link": ""
         }
