@@ -16,6 +16,16 @@
               "link": ""
           }
     ],
+    "main_bulletin": [
+          {
+              "img": "https://thesauce00.github.io/main_bulletin/1.jpg",
+              "link": ""
+          },
+          {
+              "img": "https://thesauce00.github.io/main_bulletin/2.jpg",
+              "link": ""
+          },
+    ],
     "image": "https://thesauce00.github.io/1.jpg",
     "link": "",
     "updater": "https://thesauce00.github.io/TheSauce00WU.github.io/updates.json",
