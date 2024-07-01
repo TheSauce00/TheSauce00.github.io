@@ -19,12 +19,21 @@
     "main_bulletin": [
         {
             "id": 0,
+            "bull_type": "screen_link",
             "img": "https://thesauce00.github.io/main_bulletin/1.jpg",
+            "img2": "https://thesauce00.github.io/main_bulletin/1_2.jpg",
             "link": ""
         },
         {
             "id": 1,
+            "bull_type": "web_link",
             "img": "https://thesauce00.github.io/main_bulletin/2.jpg",
+            "link": ""
+        },
+        {
+            "id": 2,
+            "bull_type": "web_link",
+            "img": "https://thesauce00.github.io/main_bulletin/3.jpg",
             "link": ""
         }
     ],
