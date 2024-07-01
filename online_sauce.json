@@ -20,6 +20,8 @@
         {
             "id": 0,
             "bull_type": "screen_link",
+            "text1": "Welcome to my {b}FIRST RELEASE!{/b} Uhh I have multiple projects in the works, my main one being the one that got me in the Renpy Engine. I'll have updates on this online bulletin. Also I'm kicking off my Patreon, where updates, game builds/demos, and Renpy tricks and assets will be posted for people who become a patron.",
+            "text2": "",
             "img": "https://thesauce00.github.io/main_bulletin/1.jpg",
             "img2": "https://thesauce00.github.io/main_bulletin/1_2.jpg",
             "link": ""
