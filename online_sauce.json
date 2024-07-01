@@ -1,35 +1,34 @@
 {
     "bulletin": [
-          {
-              "text": "Hello I'm the Sauce #1",
-              "img": "https://thesauce00.github.io/1.jpg",
-              "link": ""
-          },
-          {
-              "text": "Hello I'm the Sauce #2",
-              "img": "https://thesauce00.github.io/2.jpg",
-              "link": ""
-          },
-          {
-              "text": "Hello I'm the Sauce #3",
-              "img": "https://thesauce00.github.io/3.jpg",
-              "link": ""
-          }
+        {
+            "text": "Hello I'm the Sauce #1",
+            "img": "https://thesauce00.github.io/1.jpg",
+            "link": ""
+        },
+        {
+            "text": "Hello I'm the Sauce #2",
+            "img": "https://thesauce00.github.io/2.jpg",
+            "link": ""
+        },
+        {
+            "text": "Hello I'm the Sauce #3",
+            "img": "https://thesauce00.github.io/3.jpg",
+            "link": ""
+        }
     ],
     "main_bulletin": [
-          {
-              "img": "https://thesauce00.github.io/main_bulletin/1.jpg",
-              "link": ""
-          },
-          {
-              "img": "https://thesauce00.github.io/main_bulletin/2.jpg",
-              "link": ""
-          },
+        {
+            "img": "https://thesauce00.github.io/main_bulletin/1.jpg",
+            "link": ""
+        },
+        {
+            "img": "https://thesauce00.github.io/main_bulletin/2.jpg",
+            "link": ""
+        }
     ],
     "image": "https://thesauce00.github.io/1.jpg",
     "link": "",
     "updater": "https://thesauce00.github.io/TheSauce00WU.github.io/updates.json",
     "text": "This is the Web Updater Test!",
     "version": "0.01"
-
 }
