@@ -1,0 +1,47 @@
+{
+    "bulletin": [
+        {
+            "text": "Hello I'm the Sauce #1",
+            "img": "https://thesauce00.github.io/1.jpg",
+            "link": ""
+        },
+        {
+            "text": "Hello I'm the Sauce #2",
+            "img": "https://thesauce00.github.io/2.jpg",
+            "link": ""
+        },
+        {
+            "text": "Hello I'm the Sauce #3",
+            "img": "https://thesauce00.github.io/3.jpg",
+            "link": ""
+        }
+    ],
+    "main_bulletin": [
+        {
+            "id": 0,
+            "bull_type": "screen_link",
+            "text1": "Welcome to my {b}FIRST RELEASE!{/b} Uhh I have multiple projects in the works. I'll have updates on these online bulletins, which are found in any of my projects. Also I'm kicking off my Patreon (see the patreon tab on the bulletin for a link and info), where updates from my projects and Renpy tricks & assets will be posted for patrons. This month I'll be posting the files for the online bulletin board and how to set it up.",
+            "text2": "",
+            "img": "https://thesauce00.github.io/main_bulletin/1.jpg",
+            "img2": "https://thesauce00.github.io/main_bulletin/1_2.jpg",
+            "link": ""
+        },
+        {
+            "id": 1,
+            "bull_type": "web_link",
+            "img": "https://thesauce00.github.io/main_bulletin/2.jpg",
+            "link": ""
+        },
+        {
+            "id": 2,
+            "bull_type": "web_link",
+            "img": "https://thesauce00.github.io/main_bulletin/3.jpg",
+            "link": ""
+        }
+    ],
+    "image": "https://thesauce00.github.io/1.jpg",
+    "link": "",
+    "updater": "https://thesauce00.github.io/TheSauce00WU.github.io/updates.json",
+    "text": "This is the Web Updater Test!",
+    "version": "0.01"
+}

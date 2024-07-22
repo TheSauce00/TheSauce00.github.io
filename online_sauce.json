@@ -1,26 +1,9 @@
 {
-    "bulletin": [
-        {
-            "text": "Hello I'm the Sauce #1",
-            "img": "https://thesauce00.github.io/1.jpg",
-            "link": ""
-        },
-        {
-            "text": "Hello I'm the Sauce #2",
-            "img": "https://thesauce00.github.io/2.jpg",
-            "link": ""
-        },
-        {
-            "text": "Hello I'm the Sauce #3",
-            "img": "https://thesauce00.github.io/3.jpg",
-            "link": ""
-        }
-    ],
     "main_bulletin": [
         {
             "id": 0,
             "bull_type": "screen_link",
-            "text1": "Welcome to my {b}FIRST RELEASE!{/b} Uhh I have multiple projects in the works, my main one being the one that got me in the Renpy Engine. I'll have updates on this online bulletin. Also I'm kicking off my Patreon, where updates, game builds/demos, and Renpy tricks and assets will be posted for people who become a patron.",
+            "text1": "Welcome to my {b}FIRST RELEASE!{/b} Uhh I have multiple projects in the works. I'll have updates on these online bulletins, which are found in any of my projects. Also I'm kicking off my Patreon (see the patreon tab on the bulletin for a link and info), where updates from my projects and Renpy tricks & assets will be posted for patrons. This month I'll be posting the files for the online bulletin board and how to set it up.",
             "text2": "",
             "img": "https://thesauce00.github.io/main_bulletin/1.jpg",
             "img2": "https://thesauce00.github.io/main_bulletin/1_2.jpg",
@@ -30,14 +13,41 @@
             "id": 1,
             "bull_type": "web_link",
             "img": "https://thesauce00.github.io/main_bulletin/2.jpg",
-            "link": ""
+            "link": "https://www.patreon.com/Sauce_is_Here"
         },
         {
             "id": 2,
-            "bull_type": "web_link",
+            "bull_type": "newsletter_link",
             "img": "https://thesauce00.github.io/main_bulletin/3.jpg",
+            "news": [
+                {
+                    "text_top": "NORMALCY",
+                    "img": "https://thesauce00.github.io/normalcy_bulletin/normalcy1a.png",
+                    "text_bottom": "",
+                    "link": ""
+                },
+                {
+                    "text_top": "NORMALCY",
+                    "img": "https://thesauce00.github.io/normalcy_bulletin/openworld1a.mp4",
+                    "text_bottom": "NORMALCY",
+                    "link": ""
+                },
+                {
+                    "text_top": "NORMALCY",
+                    "img": "https://thesauce00.github.io/normalcy_bulletin/map1a.mp4",
+                    "text_bottom": "NORMALCY",
+                    "link": ""
+                }
+            ],
             "link": ""
         }
+    ],
+    "game_list": [
+        {
+            "name": "2D SIDE SCROLLER TUTORIAL",
+            "version": "0.1",
+            "link": ""
+        },
     ],
     "image": "https://thesauce00.github.io/1.jpg",
     "link": "",
