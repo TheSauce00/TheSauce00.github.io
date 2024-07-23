@@ -29,18 +29,18 @@
                 {
                     "text_top": "NORMALCY",
                     "img": "https://thesauce00.github.io/normalcy_bulletin/normalcy1a.png",
-                    "text_bottom": "",
-                    "link": ""
-                },
-                {
-                    "text_top": "NORMALCY",
-                    "img": "https://thesauce00.github.io/normalcy_bulletin/openworld1a.mp4",
                     "text_bottom": "NORMALCY",
                     "link": ""
                 },
                 {
                     "text_top": "NORMALCY",
-                    "img": "https://thesauce00.github.io/normalcy_bulletin/map1a.mp4",
+                    "img": "https://thesauce00.github.io/normalcy_bulletin/openworld1a.png",
+                    "text_bottom": "NORMALCY",
+                    "link": ""
+                },
+                {
+                    "text_top": "NORMALCY",
+                    "img": "https://thesauce00.github.io/normalcy_bulletin/map1a.png",
                     "text_bottom": "NORMALCY",
                     "link": ""
                 }
