@@ -24,25 +24,46 @@
         {
             "id": 2,
             "bull_type": "newsletter_link",
+            "title": "NORMALCY",
             "img": "https://thesauce00.github.io/main_bulletin/3.jpg",
-            "news": [
+            "imgs": [
                 {
-                    "text_top": "NORMALCY",
-                    "img": "https://thesauce00.github.io/normalcy_bulletin/normalcy1a.png",
-                    "text_bottom": "NORMALCY",
-                    "link": ""
+                    "nl_img": "https://thesauce00.github.io/normalcy_bulletin/normalcy1a.png",
                 },
                 {
-                    "text_top": "NORMALCY",
-                    "img": "https://thesauce00.github.io/normalcy_bulletin/openworld1a.png",
-                    "text_bottom": "NORMALCY",
-                    "link": ""
+                    "nl_img": "https://thesauce00.github.io/normalcy_bulletin/openworld1a.png",
                 },
                 {
-                    "text_top": "NORMALCY",
-                    "img": "https://thesauce00.github.io/normalcy_bulletin/map1a.png",
-                    "text_bottom": "NORMALCY",
-                    "link": ""
+                    "nl_img": "https://thesauce00.github.io/normalcy_bulletin/map1a.png",
+                },
+                {
+                    "nl_img": "https://thesauce00.github.io/normalcy_bulletin/economy1a.png",
+                },
+                {
+                    "nl_img": "https://thesauce00.github.io/normalcy_bulletin/store1a.png",
+                },
+                {
+                    "nl_img": "https://thesauce00.github.io/normalcy_bulletin/inventory1a.png",
+                },
+                {
+                    "nl_img": "https://thesauce00.github.io/normalcy_bulletin/ui1a.png",
+                },
+                {
+                    "nl_img": "https://thesauce00.github.io/normalcy_bulletin/race1a.png",
+                },
+                {
+                    "nl_img": "https://thesauce00.github.io/normalcy_bulletin/fishing1a.png",
+                },
+                {
+                    "nl_img": "https://thesauce00.github.io/normalcy_bulletin/combat1a.png",
+                }
+            ],
+            "texts": [
+                {
+                    "text": "Hello World!"
+                },
+                {
+                    "text": "Hello World!"
                 }
             ],
             "link": ""
