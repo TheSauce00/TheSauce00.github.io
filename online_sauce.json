@@ -60,11 +60,34 @@
             ],
             "texts": [
                 {
-                    "nl_text": "Hello World!"
+                    "nl_text": "Welcome to the open-world life sim RPG where everything is just... normal. In this delightfully mundane game, you’ll experience the thrills of everyday life: you know, buy groceries, go to work, fight for survival. . . usual stuff."
+                }
+            ],
+            "bulls": [
+                {
+                    "title": "Just a Normal Story",
+                    "texts": [
+                        {
+                            "nl_text": "Just a normal story . . . that's it really, the usual picking up some groceries for a friend to getting involved in a corporate conspiracy involving the use of ai to expand control of a corporation trying to take over the world one person at a time. . . Yep, normal."
+                        }
+                    ],
                 },
                 {
-                    "nl_text": "Hello World!"
-                }
+                    "title": "Ever Changing World",
+                    "texts": [
+                        {
+                            "nl_text": "Try to survive in an constatntly changing world. Where the prices on products are always moving, character schedules will be effected by story events and enemies variety expands more and more as time progresses. What you say and do will affect social dynamics, which can lead to friend perks or even dating perks."
+                        }
+                    ],
+                },
+                {
+                    "title": "A Weird Life Sim RPG",
+                    "texts": [
+                        {
+                            "nl_text": "Level up stats by watching tv, reading, socializing, fishing, taking a walk or just beating the crap out of criminals and thugs."
+                        }
+                    ],
+                },
             ],
             "link": ""
         }
