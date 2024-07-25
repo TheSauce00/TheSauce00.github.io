@@ -114,7 +114,7 @@
             "check": [
                 {
                     "check": "Clean Up/Simplify Code",
-                    "status": ""
+                    "status": "wip"
                 },
                 {
                     "check": "Player World Placement Function",
