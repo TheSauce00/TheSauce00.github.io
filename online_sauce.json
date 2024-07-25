@@ -118,19 +118,19 @@
                 },
                 {
                     "check": "Player World Placement Function",
-                    "status": "wip"
+                    "status": "check"
                 },
                 {
                     "check": "Player Turn Pause",
-                    "status": ""
+                    "status": "check"
                 },
                 {
                     "check": "Other Animations for NPC Image Library",
-                    "status": ""
+                    "status": "check"
                 },
                 {
                     "check": "Middleground Added",
-                    "status": ""
+                    "status": "wip"
                 },
                 {
                     "check": "Move Area from Anywhere Example",
@@ -145,7 +145,7 @@
                     "status": ""
                 },
                 {
-                    "check": "Freeze World (Pause Evewrything in World)",
+                    "check": "Freeze World (Pause Everything in World)",
                     "status": ""
                 }
             ],
