@@ -111,26 +111,27 @@
             "id": 3,
             "bull_type": "check_link",
             "img": "https://thesauce00.github.io/main_bulletin/4.jpg",
+            "ver": "0.25",
             "check": [
                 {
                     "check": "Clean Up/Simplify Code",
-                    "status": "check"
+                    "status": "wip"
                 },
                 {
                     "check": "Player World Placement Function",
-                    "status": "check"
+                    "status": ""
                 },
                 {
                     "check": "Player Turn Pause",
-                    "status": "check"
+                    "status": ""
                 },
                 {
                     "check": "Other Animations for NPC Image Library",
-                    "status": "check"
+                    "status": ""
                 },
                 {
                     "check": "Middleground Added",
-                    "status": "wip"
+                    "status": ""
                 },
                 {
                     "check": "Move Area from Anywhere Example",
