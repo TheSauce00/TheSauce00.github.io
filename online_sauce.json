@@ -111,9 +111,41 @@
             "id": 3,
             "bull_type": "check_link",
             "img": "https://thesauce00.github.io/main_bulletin/4.jpg",
-            "dsc": [
+            "check": [
                 {
                     "check": "Clean Up/Simplify Code",
+                    "status": ""
+                },
+                {
+                    "check": "Player World Placement Function",
+                    "status": ""
+                },
+                {
+                    "check": "Player Turn Pause",
+                    "status": ""
+                },
+                {
+                    "check": "Other Animations for NPC Image Library",
+                    "status": ""
+                },
+                {
+                    "check": "Middleground Added",
+                    "status": ""
+                },
+                {
+                    "check": "Move Area from Anywhere Example",
+                    "status": ""
+                },
+                {
+                    "check": "Other Animations for Player",
+                    "status": ""
+                },
+                {
+                    "check": "Paralax Scrolling",
+                    "status": ""
+                },
+                {
+                    "check": "Freeze World (Pause Evewrything in World)",
                     "status": ""
                 }
             ],
@@ -127,6 +159,9 @@
             "link": ""
         }
     ],
+    "box": "https://thesauce00.github.io/checkbox/box.png",
+    "check": "https://thesauce00.github.io/checkbox/check.png",
+    "wip": "https://thesauce00.github.io/checkbox/wip.png",
     "image": "https://thesauce00.github.io/1.jpg",
     "link": "",
     "updater": "https://thesauce00.github.io/TheSauce00WU.github.io/updates.json",
