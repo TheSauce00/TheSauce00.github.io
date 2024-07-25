@@ -114,11 +114,11 @@
             "check": [
                 {
                     "check": "Clean Up/Simplify Code",
-                    "status": "wip"
+                    "status": "check"
                 },
                 {
                     "check": "Player World Placement Function",
-                    "status": ""
+                    "status": "wip"
                 },
                 {
                     "check": "Player Turn Pause",
