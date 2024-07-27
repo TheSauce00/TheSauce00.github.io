@@ -152,6 +152,10 @@
                         {
                             "check": "Freeze World (Pause Everything in World)",
                             "status": ""
+                        },
+                        {
+                            "check": "Update 2D Side Scroller Guide for new update",
+                            "status": ""
                         }
                     ]
                 },
