@@ -13,12 +13,14 @@
             ],
             "img": "https://thesauce00.github.io/main_bulletin/1.jpg",
             "img2": "https://thesauce00.github.io/main_bulletin/1_2.jpg",
+            "active": "True",
             "link": ""
         },
         {
             "id": 1,
             "bull_type": "web_link",
             "img": "https://thesauce00.github.io/main_bulletin/2.jpg",
+            "active": "True",
             "link": "https://www.patreon.com/Sauce_is_Here"
         },
         {
@@ -26,6 +28,7 @@
             "bull_type": "newsletter_link",
             "title": "NORMALCY",
             "img": "https://thesauce00.github.io/main_bulletin/3.jpg",
+            "active": "True",
             "imgs": [
                 {
                     "nl_img": "https://thesauce00.github.io/normalcy_bulletin/normalcy1a.png"
@@ -111,6 +114,7 @@
             "id": 3,
             "bull_type": "check_link",
             "img": "https://thesauce00.github.io/main_bulletin/4.jpg",
+            "active": "True",
             "progress": [
                 {
                     "proj": "2D Side Scroller Template",
@@ -120,6 +124,10 @@
                         {
                             "check": "Clean Up/Simplify Code",
                             "status": "wip"
+                        },
+                        {
+                            "check": "Player Dynamic Midpoint",
+                            "status": ""
                         },
                         {
                             "check": "Player World Placement Function",
@@ -157,6 +165,30 @@
                             "check": "Update 2D Side Scroller Guide for new update",
                             "status": ""
                         }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "bull_type": "patron_link",
+            "img": "https://thesauce00.github.io/main_bulletin/4.jpg",
+            "active": "True",
+            "progress": [
+                {
+                    "tier": "Gimme Lil Somethin",
+                    "patrons": [
+                        "Sosu 0",
+                        "Sosu 1",
+                        "Sosu 2"
+                    ]
+                },
+                {
+                    "tier": "I Want It All",
+                    "patrons": [
+                        "Sosu 0",
+                        "Sosu 1",
+                        "Sosu 2"
                     ]
                 }
             ]
