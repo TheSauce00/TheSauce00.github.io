@@ -6,19 +6,7 @@
             "color": "#FFFFFF",
             "text_color": "#000000",
             "patrons": [
-                "Sosu 0",
-                "Sosu 1",
-                "Sosu 2"
-            ]
-        },
-        {
-            "tier": "Gimme Lil Somethin",
-            "color": "#FFFFFF",
-            "text_color": "#000000",
-            "patrons": [
-                "Sosu 0",
-                "Sosu 1",
-                "Sosu 2"
+
             ]
         },
         {
@@ -26,19 +14,7 @@
             "color": "#000000",
             "text_color": "#FFFFFF",
             "patrons": [
-                "Sosu 0",
-                "Sosu 1",
-                "Sosu 2"
-            ]
-        },
-        {
-            "tier": "I Want It All",
-            "color": "#000000",
-            "text_color": "#FFFFFF",
-            "patrons": [
-                "Sosu 0",
-                "Sosu 1",
-                "Sosu 2"
+
             ]
         }
     ]
