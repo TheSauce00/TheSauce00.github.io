@@ -4,35 +4,35 @@
             "id": 0,
             "bull_type": "screen_link",
             "img": "https://thesauce00.github.io/main_bulletin/1.jpg",
-            "active": "True",
+            "active": "False",
             "link": ""
         },
         {
             "id": 1,
             "bull_type": "web_link",
             "img": "https://thesauce00.github.io/main_bulletin/2.jpg",
-            "active": "True",
+            "active": "False",
             "link": "https://www.patreon.com/Sauce_is_Here"
         },
         {
             "id": 2,
             "bull_type": "newsletter_link",
             "img": "https://thesauce00.github.io/main_bulletin/3.jpg",
-            "active": "True",
+            "active": "False",
             "link": ""
         },
         {
             "id": 3,
             "bull_type": "check_link",
             "img": "https://thesauce00.github.io/main_bulletin/4.jpg",
-            "active": "True",
+            "active": "False",
             "link": ""
         },
         {
             "id": 4,
             "bull_type": "patron_link",
             "img": "https://thesauce00.github.io/main_bulletin/5.jpg",
-            "active": "True",
+            "active": "False",
             "link": ""
         }
     ],
