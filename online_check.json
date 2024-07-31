@@ -1,0 +1,56 @@
+{
+    "id": 3,
+    "progress": [
+        {
+            "proj": "2D Side Scroller Template",
+            "ver": "0.25",
+            "check": [
+
+                {
+                    "check": "Clean Up/Simplify Code",
+                    "status": "wip"
+                },
+                {
+                    "check": "Player Dynamic Midpoint",
+                    "status": ""
+                },
+                {
+                    "check": "Player World Placement Function",
+                    "status": ""
+                },
+                {
+                    "check": "Player Turn Pause",
+                    "status": ""
+                },
+                {
+                    "check": "Other Animations for NPC Image Library",
+                    "status": ""
+                },
+                {
+                    "check": "Middleground Added",
+                    "status": ""
+                },
+                {
+                    "check": "Move Area from Anywhere Example",
+                    "status": ""
+                },
+                {
+                    "check": "Other Animations for Player",
+                    "status": ""
+                },
+                {
+                    "check": "Parallax Scrolling",
+                    "status": ""
+                },
+                {
+                    "check": "Freeze World (Pause Everything in World)",
+                    "status": ""
+                },
+                {
+                    "check": "Update 2D Side Scroller Guide for new update",
+                    "status": ""
+                }
+            ]
+        }
+    ]
+}
