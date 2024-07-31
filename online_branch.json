@@ -173,7 +173,71 @@
             "id": 4,
             "bull_type": "patron_link",
             "img": "https://thesauce00.github.io/main_bulletin/5.jpg",
-            "active": "True"
+            "active": "True",
+            "progress": [
+                {
+                    "tier": "Gimme Lil Somethin",
+                    "patrons": [
+                        "Sosu 0",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 2"
+                    ]
+                },
+                {
+                    "tier": "I Want It All",
+                    "patrons": [
+                        "Sosu 0",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 1",
+                        "Sosu 2"
+                    ]
+                }
+            ]
         }
     ],
     "game_list": [
