@@ -3,6 +3,8 @@
     "tiers": [
         {
             "tier": "Gimme Lil Somethin",
+            "color": "#FFFFFF",
+            "text_color": "#000000",
             "patrons": [
                 "Sosu 0",
                 "Sosu 1",
@@ -11,6 +13,8 @@
         },
         {
             "tier": "I Want It All",
+            "color": "#000000",
+            "text_color": "#FFFFFF",
             "patrons": [
                 "Sosu 0",
                 "Sosu 1",
