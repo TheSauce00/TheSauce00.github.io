@@ -9,10 +9,10 @@
         },
         {
             "id": 1,
-            "bull_type": "web_link",
+            "bull_type": "pass_link",
             "img": "https://thesauce00.github.io/main_bulletin/2.jpg",
             "active": "True",
-            "link": "https://www.patreon.com/Sauce_is_Here"
+            "link": ""
         },
         {
             "id": 2,
