@@ -34,6 +34,13 @@
             "img": "https://thesauce00.github.io/main_bulletin/5.jpg",
             "active": "False",
             "link": ""
+        },
+        {
+            "id": 5,
+            "bull_type": "purchase_link",
+            "img": "https://thesauce00.github.io/main_bulletin/5.jpg",
+            "active": "False",
+            "link": ""
         }
     ],
     "game_list": [
@@ -53,7 +60,8 @@
         "https://thesauce00.github.io/online_web.json",
         "https://thesauce00.github.io/online_newsletter.json",
         "https://thesauce00.github.io/online_check.json",
-        "https://thesauce00.github.io/online_patron.json"
+        "https://thesauce00.github.io/online_patron.json",
+        "https://thesauce00.github.io/online_purchase.json"
     ],
     "updater": "https://thesauce00.github.io/TheSauce00WU.github.io/updates.json",
     "version": "0.01"
