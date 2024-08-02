@@ -39,7 +39,7 @@
             "id": 5,
             "bull_type": "purchase_link",
             "img": "https://thesauce00.github.io/main_bulletin/5.jpg",
-            "active": "False",
+            "active": "True",
             "link": ""
         }
     ],
