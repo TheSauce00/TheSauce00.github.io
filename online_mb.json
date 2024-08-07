@@ -46,8 +46,7 @@
     "game_list": [
         {
             "name": "2D SIDE SCROLLER TUTORIAL",
-            "version": "0.1",
-            "link": ""
+            "version": "0.1"
         }
     ],
     "box": "https://thesauce00.github.io/checkbox/box.png",
