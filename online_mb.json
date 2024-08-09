@@ -62,6 +62,8 @@
         "https://thesauce00.github.io/online_patron.json",
         "https://thesauce00.github.io/online_purchase.json"
     ],
+    "maintenance": "True",
+    "bullet_file": "https://thesauce00.github.io/online_bulletin.rpy",
     "updater": "https://thesauce00.github.io/TheSauce00WU.github.io/updates.json",
     "version": "0.01"
 }
