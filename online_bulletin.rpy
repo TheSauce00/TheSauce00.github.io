@@ -558,7 +558,7 @@ default selected_bullet = None
 default selected_bullet2 = None
 default bullet_screen = False
 default bullet_delay = False
-screen bulletin_board:
+screen bulletin:
     timer 0.01 action Function(update_news)
 
     $ active_bulletins = []
