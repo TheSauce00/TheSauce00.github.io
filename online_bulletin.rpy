@@ -1,4 +1,4 @@
-### ONLINE BULLETIN SCREEN ### 
+### ONLINE BULLETIN SCREEN ###
 
 transform loading_dot1a:
     yoffset 0
@@ -15,9 +15,6 @@ transform loading_dot3a:
     pause 0.75
     linear 0.1 yoffset -100
     linear 0.2 yoffset 0
-
-
-
 transform news_fade:
     on idle:
         alpha 1.0
@@ -591,13 +588,13 @@ screen bulletin_board:
             if persistent.current_news == None:
                 text "OFFLINE" size 75 color "#808080" outlines [ (absolute(7), "#000", absolute(4), absolute(4)) ] bold False xoffset 200 yoffset 40
             else:
-                if len(active_bulletins) == 0:
+                if persistent.current_news['maintenance'] == 'True' or len(active_bulletins) == 0:
                     text "* Maintenance Being Done *" size 50 color "#808080" outlines [ (absolute(7), "#000", absolute(4), absolute(4)) ] bold False xoffset 10 yoffset 55
                 else:
                     timer 0.01 action SetVariable("selected_bullet",active_bulletins[0])
                     if selected_bullet != None:
                         imagebutton:
-                            idle fetch_image(selected_bullet['img'])#NewsImage
+                            idle fetch_image(selected_bullet['img'])
                             yoffset -5
                             if selected_bullet['bull_type'] == "screen_link":
                                 action [Function(set_bulletin),SetVariable("bullet_screen",True),Show("show_bulletin")]
@@ -629,7 +626,7 @@ screen bulletin_board:
 
             textbutton _(">") action NullAction() text_size 50 text_idle_color "#757575" text_hover_color "#757575" text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] ysize 75 yoffset 25
     else:
-        if len(active_bulletins) == 0:
+        if persistent.current_news['maintenance'] == 'True' or len(active_bulletins) == 0:
             hbox:
                 xalign 0.5
                 xoffset 550
