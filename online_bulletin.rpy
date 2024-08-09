@@ -22,6 +22,20 @@ transform news_fade:
     on hover:
         alpha 0.75
         linear 0.15 alpha 1.0
+transform loading_start_:
+    on show:
+        alpha 1.0
+        linear 0.5 alpha 1.0
+    on hide:
+        alpha 1.0
+        linear 0.5 alpha 0.0
+transform loading_trans_:
+    on show:
+        alpha 0.0
+        linear 0.5 alpha 1.0
+    on hide:
+        alpha 1.0
+        linear 0.5 alpha 0.0
 
 screen show_bulletin:
     zorder 100
