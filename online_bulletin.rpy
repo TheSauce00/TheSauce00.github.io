@@ -1,4 +1,4 @@
-### ONLINE BULLETIN SCREEN ###
+### ONLINE BULLETIN SCREEN ### HELLO LOSER ##
 
 transform loading_dot1a:
     yoffset 0
@@ -558,7 +558,7 @@ default selected_bullet = None
 default selected_bullet2 = None
 default bullet_screen = False
 default bullet_delay = False
-screen bulletin:
+screen bulletin_board:
     timer 0.01 action Function(update_news)
 
     $ active_bulletins = []
