@@ -588,28 +588,31 @@ screen bulletin_board:
             if persistent.current_news == None:
                 text "OFFLINE" size 75 color "#808080" outlines [ (absolute(7), "#000", absolute(4), absolute(4)) ] bold False xoffset 200 yoffset 40
             else:
-                if persistent.current_news['maintenance'] == 'True' or len(active_bulletins) == 0:
+                if persistent.current_news['maintenance'] == 'True':
                     text "* Maintenance Being Done *" size 50 color "#808080" outlines [ (absolute(7), "#000", absolute(4), absolute(4)) ] bold False xoffset 10 yoffset 55
                 else:
-                    timer 0.01 action SetVariable("selected_bullet",active_bulletins[0])
-                    if selected_bullet != None:
-                        imagebutton:
-                            idle fetch_image(selected_bullet['img'])
-                            yoffset -5
-                            if selected_bullet['bull_type'] == "screen_link":
-                                action [Function(set_bulletin),SetVariable("bullet_screen",True),Show("show_bulletin")]
-                            elif selected_bullet['bull_type'] == "web_link":
-                                action [Function(set_bulletin),SetVariable("bullet_screen",True),OpenURL(selected_bullet["link"])]
-                            elif selected_bullet['bull_type'] == "newsletter_link":
-                                action [Function(set_bulletin),SetVariable("bullet_screen",True),Show("show_newsletter")]
-                            elif selected_bullet['bull_type'] == "check_link":
-                                action [Function(set_bulletin),SetVariable("bullet_screen",True),Show("show_progress")]
-                            elif selected_bullet['bull_type'] == "patron_link":
-                                action [Function(set_bulletin),SetVariable("bullet_screen",True),Show("show_patrons")]
-                            elif selected_bullet['bull_type'] == "purchase_link":
-                                action [Function(set_bulletin),SetVariable("bullet_screen",True),Show("show_purchases")]
-                            else:
-                                action NullAction()
+                    if len(active_bulletins) == 0:
+                        text "* Maintenance Being Done *" size 50 color "#808080" outlines [ (absolute(7), "#000", absolute(4), absolute(4)) ] bold False xoffset 10 yoffset 55
+                    else:
+                        timer 0.01 action SetVariable("selected_bullet",active_bulletins[0])
+                        if selected_bullet != None:
+                            imagebutton:
+                                idle fetch_image(selected_bullet['img'])
+                                yoffset -5
+                                if selected_bullet['bull_type'] == "screen_link":
+                                    action [Function(set_bulletin),SetVariable("bullet_screen",True),Show("show_bulletin")]
+                                elif selected_bullet['bull_type'] == "web_link":
+                                    action [Function(set_bulletin),SetVariable("bullet_screen",True),OpenURL(selected_bullet["link"])]
+                                elif selected_bullet['bull_type'] == "newsletter_link":
+                                    action [Function(set_bulletin),SetVariable("bullet_screen",True),Show("show_newsletter")]
+                                elif selected_bullet['bull_type'] == "check_link":
+                                    action [Function(set_bulletin),SetVariable("bullet_screen",True),Show("show_progress")]
+                                elif selected_bullet['bull_type'] == "patron_link":
+                                    action [Function(set_bulletin),SetVariable("bullet_screen",True),Show("show_patrons")]
+                                elif selected_bullet['bull_type'] == "purchase_link":
+                                    action [Function(set_bulletin),SetVariable("bullet_screen",True),Show("show_purchases")]
+                                else:
+                                    action NullAction()
 
     if bullet_delay != False:
         timer 0.25 action SetVariable("bullet_delay",False)
