@@ -550,8 +550,38 @@ screen show_purchases:
                                 vbox:
                                     text i['title'] color "#FFFFFF" size 45 outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] yoffset -5
                                     text i['type'] size 25 color "#8C8C8C" yoffset 25
-                                text " - " yoffset 10
-                                textbutton i['button'] text_idle_color "#FFFFFF" text_hover_color i["color"] text_size 45 text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] yoffset -5 action OpenURL(i["link"])
+                                if i['button'] == '':
+                                    pass
+                                elif i['button'] == 'COMING SOON':
+                                    text " - " yoffset 10
+                                    textbutton i['button']:
+                                        text_idle_color "#FFFFFF"
+                                        text_hover_color i["color"]
+                                        text_size 45
+                                        text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ]
+                                        yoffset -5
+                                        action NullAction()
+                                elif i['button'] == 'UNAVAILABLE':
+                                    text " - " yoffset 10
+                                    textbutton i['button']:
+                                        text_idle_color "#727272"
+                                        text_hover_color "#727272"
+                                        text_size 45
+                                        text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ]
+                                        yoffset -5
+                                        action NullAction()
+                                else:
+                                    text " - " yoffset 10
+                                    textbutton i['button']:
+                                        text_idle_color "#FFFFFF"
+                                        text_hover_color i["color"]
+                                        text_size 45
+                                        text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ]
+                                        yoffset -5
+                                        if i["link"] == "":
+                                            action NullAction()
+                                        else:
+                                            action OpenURL(i["link"])
 
 
         imagebutton:
