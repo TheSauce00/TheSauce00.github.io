@@ -551,10 +551,7 @@ screen show_purchases:
                                     text i['title'] color "#FFFFFF" size 45 outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] yoffset -5
                                     text i['type'] size 25 color "#8C8C8C" yoffset 25
                                 text " - " yoffset 10
-                                if i["price"] == "$0":
-                                    textbutton "GET FREE" text_idle_color "#FFFFFF" text_hover_color i["color"] text_size 45 text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] yoffset -5 action OpenURL(i["link"])
-                                else:
-                                    textbutton "PURCHASE" text_idle_color "#FFFFFF" text_hover_color i["color"] text_size 45 text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] yoffset -5 action OpenURL(i["link"])
+                                textbutton i['button'] text_idle_color "#FFFFFF" text_hover_color i["color"] text_size 45 text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] yoffset -5 action OpenURL(i["link"])
 
 
         imagebutton:
