@@ -69,16 +69,19 @@ screen show_bulletin:
                 xalign 0.5
                 yalign 0.5
                 spacing 40
-                text selected_bullet2['title'] color "#FFFFFF" text_align 0.5 outlines [ (absolute(8), "#000", absolute(2), absolute(2)) ]
+                text selected_bullet2['title'] size 50 color "#FFFFFF" bold True text_align 0.5 outlines [ (absolute(8), "#000", absolute(2), absolute(2)) ]
 
                 imagebutton:
                     xalign 0.5
                     idle fetch_image(selected_bullet2['img2'])
                     action NullAction()
 
-                vbox:
-                    for i in selected_bullet2["text"]:
-                        text i['text'] color "#FFFFFF" xsize 1500 text_align 0.5 outlines [ (absolute(8), "#000", absolute(2), absolute(2)) ]
+                viewport at loading_trans_:
+                    xysize (2000, 750)
+                    mousewheel True
+                    vbox:
+                        for i in selected_bullet2["text"]:
+                            text i['text'] color "#FFFFFF" xsize 1500 text_align 0.5 outlines [ (absolute(8), "#000", absolute(2), absolute(2)) ]
 
         imagebutton:
             idle Text("{color=#808080}CLOSE", size = 75, bold=True, outlines = [ (absolute(8), "#000", absolute(2), absolute(2)) ])
