@@ -69,7 +69,7 @@ screen show_bulletin:
                 xalign 0.5
                 yalign 0.5
                 spacing 40
-                text i['title'] color "#FFFFFF" text_align 0.5 text_outlines [ (absolute(8), "#000", absolute(2), absolute(2)) ]
+                text i['title'] color "#FFFFFF" text_align 0.5 outlines [ (absolute(8), "#000", absolute(2), absolute(2)) ]
 
                 imagebutton:
                     xalign 0.5
