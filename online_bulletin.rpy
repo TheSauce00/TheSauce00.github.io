@@ -580,6 +580,7 @@ screen show_purchases:
                                         text_idle_color "#FFFFFF"
                                         text_hover_color i["color"]
                                         text_size 45
+                                        text_bold True
                                         text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ]
                                         yoffset -5
                                         action NullAction()
@@ -589,6 +590,7 @@ screen show_purchases:
                                         text_idle_color "#727272"
                                         text_hover_color "#727272"
                                         text_size 45
+                                        text_bold True
                                         text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ]
                                         yoffset -5
                                         action NullAction()
@@ -598,6 +600,7 @@ screen show_purchases:
                                         text_idle_color "#FFFFFF"
                                         text_hover_color i["color"]
                                         text_size 45
+                                        text_bold True
                                         text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ]
                                         yoffset -5
                                         if i["link"] == "":
