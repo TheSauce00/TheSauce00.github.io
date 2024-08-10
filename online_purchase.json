@@ -2,7 +2,7 @@
     "id": 5,
     "listing": [
         {
-            "icon": "https://thesauce00.github.io/icon/2Dsidescroller.png",
+            "icon": "https://thesauce00.github.io/icon/2Dsidescrollerlite.png",
             "title": "2D Side Scroller Template - Lite",
             "type": "Renpy Asset",
             "version": "0.1",
@@ -10,7 +10,7 @@
             "discount": "False",
             "new_price": "$0",
             "color": "#FFAA00",
-            "button": "DOWNLOAD NOW",
+            "button": "DOWNLOAD",
             "link": "https://the-real-sauce.itch.io/2d-side-scrolling-in-renpy"
         },
         {
@@ -22,7 +22,7 @@
             "discount": "False",
             "new_price": "$0",
             "color": "#FFAA00",
-            "button": "BUY NOW",
+            "button": "BUY",
             "link": "https://the-real-sauce.itch.io/2d-side-scrolling-in-renpy"
         }
     ]
