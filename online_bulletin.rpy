@@ -63,6 +63,7 @@ screen show_bulletin:
             xalign 0.5
             yalign 0.5
             background None
+            xysize (1920,1080)
             add Transform(Solid("#FFFFFF", xysize=(2000, 750),xalign=0.5),alpha=0.05) xalign 0.5 yalign 0.5
             add Transform(Solid("#000000", xysize=(2000, 750),xalign=0.5),alpha=0.95) xalign 0.5 yalign 0.5
             vbox:
@@ -80,10 +81,9 @@ screen show_bulletin:
                 text "   " size 10
 
                 viewport at loading_trans_:
-                    xysize (2000, 360)
+                    xysize (1500, 360)
                     mousewheel True
                     xalign 0.5 yalign 0.0
-                    xoffset 235
                     vbox:
                         xalign 0.5 yalign 0.5
                         for i in selected_bullet2["text"]:
@@ -167,10 +167,11 @@ screen show_newsletter:
                         for i in selected_bullet2["dsc"]:
                             text i['dsc_text'] color "#FFE300" size 15 bold True xsize 600
 
-                vbox:
+                frame:
                     xalign 0.0
                     yalign 0.5
-                    spacing 40
+                    background None
+                    #spacing 40
                     #text selected_bullet['title'] color "#FFFFFF" xsize 1500 text_align 0.5 bold True
                     for i in selected_bullet2["imgs"]:
                         if i == selected_nl:
@@ -178,15 +179,16 @@ screen show_newsletter:
                             imagebutton:
                                 xalign 0.0
                                 yalign 0.5
+                                yoffset -50
                                 idle Transform(fetch_image(i['nl_img']),zoom=0.5)#NewsImage
                                 action NullAction()
                             #text i['text_bottom'] color "#FFFFFF" xsize 1500 text_align 0.5
 
                     hbox:
-                        xalign 0.0
+                        xalign 0.5
                         yalign 0.5
-                        xoffset 10
-                        yoffset -65
+                        xoffset -345
+                        yoffset 300
                         spacing 10
                         if selected_bullet2["imgs"].index(selected_nl) == 0:
                             textbutton _("<") action [SetVariable("selected_nl",selected_bullet2["imgs"][-1]),SetVariable("nl_delay",True)] text_size 100 text_idle_color "#757575" text_hover_color "#FFFFFF" text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] ysize 75 yoffset 55
