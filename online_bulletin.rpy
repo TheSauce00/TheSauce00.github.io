@@ -746,7 +746,7 @@ screen bulletin_board:
 
 
 
-
+## QUIT ##
 label quit:
     $ update_news()
     $ delete_file()
