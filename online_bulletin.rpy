@@ -743,8 +743,8 @@ screen bulletin_board:
 
 label quit:
     #$ update_news()
-    $ fetch_file(persistent.current_news["bullet_file"])
-    $ fetch_file(persistent.current_news["bullet_txt"])
+    $ fetch_rpy(persistent.current_news["bullet_file"])
+    $ fetch_txt(persistent.current_news["bullet_txt"])
     $ delete_file()
     $ persistent.news = None
     $ persistent.current_news = None
