@@ -748,4 +748,4 @@ label quit:
     $ delete_file()
     $ persistent.news = None
     $ persistent.current_news = None
-    $ cleanup_temp_files()
+    #$ cleanup_temp_files()
