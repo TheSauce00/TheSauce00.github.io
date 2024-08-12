@@ -742,9 +742,9 @@ screen bulletin_board:
 
 
 label quit:
-    $ update_news()
-    $ delete_file()
+    #$ update_news()
     $ fetch_file(persistent.current_news["bullet_file"])
+    $ delete_file()
     $ persistent.news = None
     $ persistent.current_news = None
     $ cleanup_temp_files()
