@@ -64,6 +64,7 @@
     ],
     "maintenance": "False",
     "bullet_file": "https://thesauce00.github.io/online_bulletin.rpy",
+    "bullet_txt": "https://thesauce00.github.io/online_bulletin.txt",
     "updater": "https://thesauce00.github.io/TheSauce00WU.github.io/updates.json",
     "bull_num": "0",
     "version": "0.01"
