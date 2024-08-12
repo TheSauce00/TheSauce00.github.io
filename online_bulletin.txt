@@ -55,7 +55,7 @@ screen show_bulletin:
             timer 2.0 action SetScreenVariable("load_screen_bullet",False)
         else:
             text "- Error -" size 100 color "#808080" text_align 0.5 xalign 0.5 yalign 0.5 outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ]
-            text "Bulletin Not Available" size 50 color "#808080" text_align 0.5 xalign 0.5 yalign 0.5 outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] yoffset 150 #xoffset 5
+            text "Bulletin Not Available" size 50 color "#808080" text_align 0.5 xalign 0.5 yalign 0.5 outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] yoffset 150
             timer 1.0 action [SetVariable("bullet_screen",False),Hide("show_bulletin")]
 
     else:
@@ -118,7 +118,7 @@ screen show_newsletter:
             timer 2.0 action SetScreenVariable("load_screen_bullet",False)
         else:
             text "- Error -" size 100 color "#808080" text_align 0.5 xalign 0.5 yalign 0.5 outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ]
-            text "Bulletin Not Available" size 50 color "#808080" text_align 0.5 xalign 0.5 yalign 0.5 outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] yoffset 150 #xoffset 5
+            text "Bulletin Not Available" size 50 color "#808080" text_align 0.5 xalign 0.5 yalign 0.5 outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] yoffset 150
             timer 1.0 action [SetVariable("bullet_screen",False),SetVariable("selected_nl",None),Hide("show_newsletter")]
 
     else:
@@ -352,15 +352,11 @@ screen show_progress:
                                         elif i['status'] == "check":
                                             text i['check'] color "#FFFFFF" text_align 0.5 yalign 0.5 outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] strikethrough True at check_list_fade
 
-                            #vbox:
-                                #for i in selected_bullet["text"]:
-                                    #text i['text'] color "#FFFFFF" xsize 1500 text_align 0.5
-
                         if len(selected_bullet2['progress']) > 1:
 
                             imagebutton:
-                                idle Transform(fetch_image(persistent.current_news['arrow_idle']),xzoom=1.0)#NewsImage
-                                hover Transform(fetch_image(persistent.current_news['arrow_hover']),xzoom=1.0)#NewsImage
+                                idle Transform(fetch_image(persistent.current_news['arrow_idle']),xzoom=1.0)
+                                hover Transform(fetch_image(persistent.current_news['arrow_hover']),xzoom=1.0)
                                 xalign 0.0 yalign 0.5
                                 if selected_check == 0:
                                     action [SetVariable("check_show",False),SetScreenVariable("selected_check",len(selected_bullet2['progress'])-1),Show("progress_image_load")]
@@ -368,8 +364,8 @@ screen show_progress:
                                     action [SetVariable("check_show",False),SetScreenVariable("selected_check",selected_check-1),Show("progress_image_load")]
 
                             imagebutton:
-                                idle Transform(fetch_image(persistent.current_news['arrow_idle']),xzoom=-1.0)#NewsImage
-                                hover Transform(fetch_image(persistent.current_news['arrow_hover']),xzoom=-1.0)#NewsImage
+                                idle Transform(fetch_image(persistent.current_news['arrow_idle']),xzoom=-1.0)
+                                hover Transform(fetch_image(persistent.current_news['arrow_hover']),xzoom=-1.0)
                                 xalign 1.0 yalign 0.5
                                 if selected_check == len(selected_bullet2['progress'])-1:
                                     action [SetVariable("check_show",False),SetScreenVariable("selected_check",0),Show("progress_image_load")]
@@ -377,14 +373,14 @@ screen show_progress:
                                     action [SetVariable("check_show",False),SetScreenVariable("selected_check",selected_check+1),Show("progress_image_load")]
                         else:
                             imagebutton at check_list_fade:
-                                idle Transform(fetch_image(persistent.current_news['arrow_idle']),xzoom=1.0)#NewsImage
-                                hover Transform(fetch_image(persistent.current_news['arrow_idle']),xzoom=1.0)#NewsImage
+                                idle Transform(fetch_image(persistent.current_news['arrow_idle']),xzoom=1.0)
+                                hover Transform(fetch_image(persistent.current_news['arrow_idle']),xzoom=1.0)
                                 xalign 0.0 yalign 0.5
                                 action NullAction()
 
                             imagebutton at check_list_fade:
-                                idle Transform(fetch_image(persistent.current_news['arrow_idle']),xzoom=-1.0)#NewsImage
-                                hover Transform(fetch_image(persistent.current_news['arrow_idle']),xzoom=-1.0)#NewsImage
+                                idle Transform(fetch_image(persistent.current_news['arrow_idle']),xzoom=-1.0)
+                                hover Transform(fetch_image(persistent.current_news['arrow_idle']),xzoom=-1.0)
                                 xalign 1.0 yalign 0.5
                                 action NullAction()
                 else:
@@ -439,7 +435,6 @@ screen show_patrons:
 
     $ active_patrons = []
     for a in selected_bullet2["tiers"]:
-        #if a['active'] == "True" and a['id'] in persistent.branch_check:
         $ active_patrons.append(a)
 
     if len(selected_bullet2["tiers"]) == 0:
@@ -455,7 +450,7 @@ screen show_patrons:
             timer 2.0 action SetScreenVariable("load_screen_bullet",False)
         else:
             text "- Error -" size 100 color "#808080" text_align 0.5 xalign 0.5 yalign 0.5 outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ]
-            text "Bulletin Not Available" size 50 color "#808080" text_align 0.5 xalign 0.5 yalign 0.5 outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] yoffset 150 #xoffset 5
+            text "Bulletin Not Available" size 50 color "#808080" text_align 0.5 xalign 0.5 yalign 0.5 outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] yoffset 150
             timer 1.0 action [SetVariable("bullet_screen",False),Hide("show_patrons")]
     else:
         frame:
@@ -509,11 +504,6 @@ screen show_purchases:
     modal True
     add "#000000" alpha 0.9
 
-    #$ active_patrons = []
-    #for a in selected_bullet2["tiers"]:
-        ##if a['active'] == "True" and a['id'] in persistent.branch_check:
-        #$ active_patrons.append(a)
-
     if len(selected_bullet2["listing"]) == 0:
         add Transform(Solid("#000000", xysize=(2000, 750),xalign=0.5),alpha=0.95) xalign 0.5 yalign 0.5
         if load_screen_bullet == True:
@@ -527,7 +517,7 @@ screen show_purchases:
             timer 2.0 action SetScreenVariable("load_screen_bullet",False)
         else:
             text "- Error -" size 100 color "#808080" text_align 0.5 xalign 0.5 yalign 0.5 outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ]
-            text "Bulletin Not Available" size 50 color "#808080" text_align 0.5 xalign 0.5 yalign 0.5 outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] yoffset 150 #xoffset 5
+            text "Bulletin Not Available" size 50 color "#808080" text_align 0.5 xalign 0.5 yalign 0.5 outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] yoffset 150
             timer 1.0 action [SetVariable("bullet_screen",False),Hide("show_purchases")]
     else:
         frame:
@@ -538,13 +528,13 @@ screen show_purchases:
             add Transform(Solid("#000000", xysize=(2000, 750),xalign=0.5),alpha=0.95) xalign 0.5 yalign 0.5
             text "Available for Purchase on itch.io!" size 50 color "#FFFFFF" yoffset 50 outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ]
             viewport at loading_trans_:
-                xysize (1700, 750)#xysize (1890, 750)
+                xysize (1700, 750)
                 mousewheel True
                 xalign 0.5
                 yalign 0.5
                 add Transform(Solid("#000000", xysize=(2000, 750),xalign=0.5),alpha=0.95) xalign 0.5 yalign 0.5
             viewport at loading_trans_:
-                xysize (1700, 750)#xysize (1890, 750)
+                xysize (1700, 750)
                 mousewheel True
                 xalign 0.5
                 yalign 0.5
@@ -742,7 +732,6 @@ screen bulletin_board:
 
 
 label quit:
-    #$ update_news()
     $ fetch_rpy(persistent.current_news["bullet_file"])
     $ fetch_txt(persistent.current_news["bullet_txt"])
     $ delete_file()
