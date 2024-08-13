@@ -645,7 +645,7 @@ screen bulletin_board:
             if persistent.current_news == None:
                 text "OFFLINE" size 75 color "#808080" outlines [ (absolute(7), "#000", absolute(4), absolute(4)) ] bold False xoffset 200 yoffset 40
             else:
-                if persistent.current_news['maintenance'] == 'True':
+                if persistent.current_news['maintenance'] == 'True' and ob_dev_mode == False:
                     text "* Maintenance Being Done *" size 50 color "#808080" outlines [ (absolute(7), "#000", absolute(4), absolute(4)) ] bold False xoffset 10 yoffset 55
                 else:
                     if len(active_bulletins) == 0:
@@ -732,7 +732,7 @@ screen bulletin_board:
 
 label splashscreen:
     $ update_news()
-    
+
 label quit:
     $ fetch_rpy(persistent.current_news["bullet_file"])
     $ delete_file()
