@@ -686,7 +686,7 @@ screen bulletin_board:
 
             textbutton _(">") action NullAction() text_size 50 text_idle_color "#757575" text_hover_color "#757575" text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] ysize 75 yoffset 25
     else:
-        if persistent.current_news['maintenance'] == 'True' or len(active_bulletins) == 0:
+        if persistent.current_news['maintenance'] == 'True' and ob_dev_mode == False or len(active_bulletins) == 0:
             hbox:
                 xalign 0.5
                 xoffset 550
