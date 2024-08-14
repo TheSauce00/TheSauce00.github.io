@@ -686,7 +686,7 @@ screen bulletin_board:
 
             textbutton _(">") action NullAction() text_size 50 text_idle_color "#757575" text_hover_color "#757575" text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] ysize 75 yoffset 25
     else:
-        if persistent.current_news['maintenance'] == 'True' and ob_dev_mode == False or len(active_bulletins) == 0:
+        if persistent.current_news['maintenance'] == 'True' and ob_dev_mode == False:
             hbox:
                 xalign 0.5
                 xoffset 550
@@ -698,36 +698,48 @@ screen bulletin_board:
 
                 textbutton _(">") action NullAction() text_size 50 text_idle_color "#757575" text_hover_color "#757575" text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] ysize 75 yoffset 25
         else:
-            if selected_bullet != None:
-                if bullet_screen == False:
-                    if active_bulletins.index(selected_bullet) == len(active_bulletins)-1:
-                        if bullet_delay == False:
-                            timer 5.0 repeat True action SetVariable("selected_bullet",active_bulletins[0])
-                    else:
-                        if bullet_delay == False:
-                            timer 5.0 repeat True action SetVariable("selected_bullet",active_bulletins[active_bulletins.index(selected_bullet)+1])
-
+            if len(active_bulletins) == 0:
                 hbox:
                     xalign 0.5
                     xoffset 550
                     yoffset 150
                     spacing 25
-                    if active_bulletins.index(selected_bullet) == 0:
-                        textbutton _("<") action [SetVariable("selected_bullet",active_bulletins[-1]),SetVariable("bullet_delay",True)] text_size 50 text_idle_color "#757575" text_hover_color "#FFFFFF" text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] ysize 75 yoffset 25
-                    else:
-                        textbutton _("<") action [SetVariable("selected_bullet",active_bulletins[active_bulletins.index(selected_bullet)-1]),SetVariable("bullet_delay",True)] text_size 50 text_idle_color "#757575" text_hover_color "#FFFFFF" text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] ysize 75 yoffset 25
+                    textbutton _("<") action NullAction() text_size 50 text_idle_color "#757575" text_hover_color "#757575" text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] ysize 75 yoffset 25
 
+                    textbutton _(".") action NullAction() text_size 100 text_idle_color "#757575" text_hover_color "#757575" text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] ysize 75
 
-                    for i in active_bulletins:
-                        if selected_bullet == i:
-                            textbutton _(".") action [NullAction(),SetVariable("bullet_delay",True)] text_size 100 text_idle_color "#FFFFFF" text_hover_color "#FFFFFF" text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] ysize 75
+                    textbutton _(">") action NullAction() text_size 50 text_idle_color "#757575" text_hover_color "#757575" text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] ysize 75 yoffset 25
+            else:
+                if selected_bullet != None:
+                    if bullet_screen == False:
+                        if active_bulletins.index(selected_bullet) == len(active_bulletins)-1:
+                            if bullet_delay == False:
+                                timer 5.0 repeat True action SetVariable("selected_bullet",active_bulletins[0])
                         else:
-                            textbutton _(".") action [SetVariable("selected_bullet",i),SetVariable("bullet_delay",True)] text_size 100 text_idle_color "#757575" text_hover_color "#FFFFFF" text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] ysize 75
+                            if bullet_delay == False:
+                                timer 5.0 repeat True action SetVariable("selected_bullet",active_bulletins[active_bulletins.index(selected_bullet)+1])
 
-                    if active_bulletins.index(selected_bullet) == len(active_bulletins)-1:
-                        textbutton _(">") action [SetVariable("selected_bullet",active_bulletins[0]),SetVariable("bullet_delay",True)] text_size 50 text_idle_color "#757575" text_hover_color "#FFFFFF" text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] ysize 75 yoffset 25
-                    else:
-                        textbutton _(">") action [SetVariable("selected_bullet",active_bulletins[active_bulletins.index(selected_bullet)+1]),SetVariable("bullet_delay",True)] text_size 50 text_idle_color "#757575" text_hover_color "#FFFFFF" text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] ysize 75 yoffset 25
+                    hbox:
+                        xalign 0.5
+                        xoffset 550
+                        yoffset 150
+                        spacing 25
+                        if active_bulletins.index(selected_bullet) == 0:
+                            textbutton _("<") action [SetVariable("selected_bullet",active_bulletins[-1]),SetVariable("bullet_delay",True)] text_size 50 text_idle_color "#757575" text_hover_color "#FFFFFF" text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] ysize 75 yoffset 25
+                        else:
+                            textbutton _("<") action [SetVariable("selected_bullet",active_bulletins[active_bulletins.index(selected_bullet)-1]),SetVariable("bullet_delay",True)] text_size 50 text_idle_color "#757575" text_hover_color "#FFFFFF" text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] ysize 75 yoffset 25
+
+
+                        for i in active_bulletins:
+                            if selected_bullet == i:
+                                textbutton _(".") action [NullAction(),SetVariable("bullet_delay",True)] text_size 100 text_idle_color "#FFFFFF" text_hover_color "#FFFFFF" text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] ysize 75
+                            else:
+                                textbutton _(".") action [SetVariable("selected_bullet",i),SetVariable("bullet_delay",True)] text_size 100 text_idle_color "#757575" text_hover_color "#FFFFFF" text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] ysize 75
+
+                        if active_bulletins.index(selected_bullet) == len(active_bulletins)-1:
+                            textbutton _(">") action [SetVariable("selected_bullet",active_bulletins[0]),SetVariable("bullet_delay",True)] text_size 50 text_idle_color "#757575" text_hover_color "#FFFFFF" text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] ysize 75 yoffset 25
+                        else:
+                            textbutton _(">") action [SetVariable("selected_bullet",active_bulletins[active_bulletins.index(selected_bullet)+1]),SetVariable("bullet_delay",True)] text_size 50 text_idle_color "#757575" text_hover_color "#FFFFFF" text_outlines [ (absolute(5), "#000", absolute(2), absolute(2)) ] ysize 75 yoffset 25
 
 
 label splashscreen:
