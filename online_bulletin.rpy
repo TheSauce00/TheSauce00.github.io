@@ -744,6 +744,7 @@ screen bulletin_board:
 
 label splashscreen:
     $ update_news()
+    return
 
 label quit:
     if persistent.current_news != None:
