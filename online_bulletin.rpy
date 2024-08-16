@@ -1,4 +1,4 @@
-##### ONLINE BULLETIN SCREEN #####
+#### ONLINE BULLETIN SCREEN ####
 
 transform loading_dot1a:
     yoffset 0
