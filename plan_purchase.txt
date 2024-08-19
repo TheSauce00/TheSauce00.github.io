@@ -22,7 +22,7 @@
             "discount": "False",
             "new_price": "$0",
             "color": "#FFAA00",
-            "button": "COMING SOON",
+            "button": "BUY",
             "link": "https://the-real-sauce.itch.io/2d-side-scrolling-in-renpy"
         },
         {
@@ -34,7 +34,7 @@
             "discount": "False",
             "new_price": "$0",
             "color": "#82B5E8",
-            "button": "COMING SOON",
+            "button": "DOWNLOAD",
             "link": "https://the-real-sauce.itch.io/2d-side-scrolling-in-renpy"
         },
         {
@@ -46,7 +46,7 @@
             "discount": "False",
             "new_price": "$0",
             "color": "#004FB5",
-            "button": "COMING SOON",
+            "button": "BUY",
             "link": "https://the-real-sauce.itch.io/2d-side-scrolling-in-renpy"
         }
     ]
