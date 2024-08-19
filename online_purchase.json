@@ -34,8 +34,8 @@
             "discount": "False",
             "new_price": "$0",
             "color": "#82B5E8",
-            "button": "COMING SOON",
-            "link": "https://the-real-sauce.itch.io/2d-side-scrolling-in-renpy"
+            "button": "DOWNLOAD",
+            "link": "https://the-real-sauce.itch.io/online-bulletin-for-renpy-lite"
         },
         {
             "icon": "https://thesauce00.github.io/icon/onlinebulletinpro.png",
@@ -46,8 +46,8 @@
             "discount": "False",
             "new_price": "$0",
             "color": "#004FB5",
-            "button": "COMING SOON",
-            "link": "https://the-real-sauce.itch.io/2d-side-scrolling-in-renpy"
+            "button": "BUY",
+            "link": "https://the-real-sauce.itch.io/online-bulletin-for-renpy-pro"
         }
     ]
 }
