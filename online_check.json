@@ -8,11 +8,11 @@
 
                 {
                     "check": "Clean Up/Simplify Code",
-                    "status": "wip"
+                    "status": "check"
                 },
                 {
                     "check": "Player Dynamic Midpoint",
-                    "status": ""
+                    "status": "wip"
                 },
                 {
                     "check": "Player World Placement Function",
