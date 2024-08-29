@@ -12,7 +12,7 @@
                 },
                 {
                     "check": "Player Dynamic Midpoint",
-                    "status": "wip"
+                    "status": ""
                 },
                 {
                     "check": "Player World Placement Function",
@@ -20,11 +20,11 @@
                 },
                 {
                     "check": "Player Turn Pause",
-                    "status": ""
+                    "status": "check"
                 },
                 {
                     "check": "Other Animations for NPC Image Library",
-                    "status": ""
+                    "status": "wip"
                 },
                 {
                     "check": "Middleground Added",
@@ -36,11 +36,11 @@
                 },
                 {
                     "check": "Other Animations for Player",
-                    "status": ""
+                    "status": "wip"
                 },
                 {
                     "check": "Freeze World (Pause Everything in World)",
-                    "status": ""
+                    "status": "wip"
                 },
                 {
                     "check": "Update 2D Side Scroller Guide for new update",
