@@ -19,7 +19,15 @@
                     "status": ""
                 },
                 {
+                    "check": "Player Dynamic Detection Box",
+                    "status": "check"
+                },
+                {
                     "check": "Better Dev Menu",
+                    "status": "check"
+                },
+                {
+                    "check": "Better Collision System",
                     "status": "check"
                 },
                 {
@@ -28,7 +36,7 @@
                 },
                 {
                     "check": "Other Animations for NPC Image Library",
-                    "status": "wip"
+                    "status": ""
                 },
                 {
                     "check": "Middleground Added",
@@ -40,7 +48,7 @@
                 },
                 {
                     "check": "Other Animations for Player",
-                    "status": "wip"
+                    "status": ""
                 },
                 {
                     "check": "Freeze World (Pause Everything in World)",
