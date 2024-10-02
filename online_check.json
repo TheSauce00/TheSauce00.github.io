@@ -12,11 +12,11 @@
                 },
                 {
                     "check": "Player Dynamic Midpoint",
-                    "status": ""
+                    "status": "wip"
                 },
                 {
                     "check": "Player World Placement Function",
-                    "status": ""
+                    "status": "wip"
                 },
                 {
                     "check": "Player Dynamic Detection Box",
@@ -44,7 +44,7 @@
                 },
                 {
                     "check": "Move Area from Anywhere Example",
-                    "status": ""
+                    "status": "wip"
                 },
                 {
                     "check": "Other Animations for Player",
