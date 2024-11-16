@@ -12,11 +12,11 @@
                 },
                 {
                     "check": "Player Dynamic Midpoint",
-                    "status": "wip"
+                    "status": "check"
                 },
                 {
                     "check": "Player World Placement Function",
-                    "status": "wip"
+                    "status": "check"
                 },
                 {
                     "check": "Player Dynamic Detection Box",
@@ -44,7 +44,7 @@
                 },
                 {
                     "check": "Move Area from Anywhere Example",
-                    "status": "wip"
+                    "status": "check"
                 },
                 {
                     "check": "Other Animations for Player",
@@ -52,11 +52,11 @@
                 },
                 {
                     "check": "Freeze World (Pause Everything in World)",
-                    "status": "wip"
+                    "status": "check"
                 },
                 {
                     "check": "Update 2D Side Scroller Guide for new update",
-                    "status": ""
+                    "status": "wip"
                 }
             ]
         }
