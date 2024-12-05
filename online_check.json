@@ -2,61 +2,33 @@
     "id": 3,
     "progress": [
         {
-            "proj": "2D Side Scroller Template",
-            "ver": "0.25",
+            "proj": "2D Side Scroller PRO Template",
+            "ver": "0.1",
             "check": [
 
                 {
-                    "check": "Clean Up/Simplify Code",
-                    "status": "check"
+                    "check": "Parallax Scroling",
+                    "status": ""
                 },
                 {
-                    "check": "Player Dynamic Midpoint",
-                    "status": "check"
+                    "check": "Vertical Movement",
+                    "status": ""
                 },
                 {
-                    "check": "Player World Placement Function",
-                    "status": "check"
+                    "check": "Layer Shifting",
+                    "status": ""
                 },
                 {
-                    "check": "Player Dynamic Detection Box",
-                    "status": "check"
+                    "check": "Area Collision",
+                    "status": ""
                 },
                 {
-                    "check": "Better Dev Menu",
-                    "status": "check"
+                    "check": "Precise Collision *maybe*",
+                    "status": ""
                 },
                 {
-                    "check": "Better Collision System",
-                    "status": "check"
-                },
-                {
-                    "check": "Player Turn Pause",
-                    "status": "check"
-                },
-                {
-                    "check": "Other Animations for NPC Image Library",
-                    "status": "check"
-                },
-                {
-                    "check": "Middleground Added",
-                    "status": "check"
-                },
-                {
-                    "check": "Move Area from Anywhere Example",
-                    "status": "check"
-                },
-                {
-                    "check": "Other Animations for Player",
-                    "status": "check"
-                },
-                {
-                    "check": "Freeze World (Pause Everything in World)",
-                    "status": "check"
-                },
-                {
-                    "check": "Update 2D Side Scroller Guide for new update",
-                    "status": "wip"
+                    "check": "Object Fade *maybe*",
+                    "status": ""
                 }
             ]
         }
