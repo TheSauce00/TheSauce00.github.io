@@ -23,10 +23,6 @@
                     "status": ""
                 },
                 {
-                    "check": "Precise Collision *maybe*",
-                    "status": ""
-                },
-                {
                     "check": "Object Fade *maybe*",
                     "status": ""
                 }
