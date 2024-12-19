@@ -3,7 +3,7 @@
     "progress": [
         {
             "proj": "2D Side Scroller PRO Template",
-            "ver": "1.0",
+            "ver": "0.1",
             "check": [
 
                 {
@@ -23,11 +23,19 @@
                     "status": "wip"
                 },
                 {
+                    "check": "Entity Player Awareness",
+                    "status": ""
+                },
+                {
                     "check": "Object Fade *maybe*",
                     "status": ""
                 },
                 {
                     "check": "Precise Collision *maybe*",
+                    "status": ""
+                },
+                {
+                    "check": "Detection Tweak (Radius System) *maybe*",
                     "status": ""
                 },
                 {
