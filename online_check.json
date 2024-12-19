@@ -3,29 +3,37 @@
     "progress": [
         {
             "proj": "2D Side Scroller PRO Template",
-            "ver": "0.1",
+            "ver": "1.0",
             "check": [
 
                 {
                     "check": "Parallax Scroling",
-                    "status": ""
+                    "status": "wip"
                 },
                 {
                     "check": "Vertical Movement",
-                    "status": ""
+                    "status": "wip"
                 },
                 {
                     "check": "Layer Shifting",
-                    "status": ""
+                    "status": "wip"
                 },
                 {
                     "check": "Area Collision",
-                    "status": ""
+                    "status": "wip"
                 },
                 {
                     "check": "Object Fade *maybe*",
                     "status": ""
-                }
+                },
+                {
+                    "check": "Precise Collision *maybe*",
+                    "status": ""
+                },
+                {
+                    "check": "Controller Support",
+                    "status": ""
+                },
             ]
         }
     ]
