@@ -12,15 +12,15 @@
                 },
                 {
                     "check": "Vertical Movement",
-                    "status": "wip"
+                    "status": "check"
                 },
                 {
                     "check": "Layer Shifting",
-                    "status": "wip"
+                    "status": "check"
                 },
                 {
                     "check": "Area Collision",
-                    "status": "wip"
+                    "status": "check"
                 },
                 {
                     "check": "Entity Player Awareness",
@@ -28,7 +28,7 @@
                 },
                 {
                     "check": "Object Fade *maybe*",
-                    "status": ""
+                    "status": "wip"
                 },
                 {
                     "check": "Precise Collision *maybe*",
@@ -36,7 +36,7 @@
                 },
                 {
                     "check": "Detection Tweak (Radius System) *maybe*",
-                    "status": ""
+                    "status": "check"
                 },
                 {
                     "check": "Controller Support",
