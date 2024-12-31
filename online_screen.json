@@ -1,10 +1,10 @@
 {
     "id": 0,
-    "title": "MERRY CHRISTMAS!",
+    "title": ". . . AND HAVE A HAPPY NEW YEAR!",
     "text": [
         {
-            "text": "Hey, just wanted to say hope you guys have a {b}Merry Christmas and Happy Holidays!{/b} I just released the final version for the 2D Side Scroller LITE Version {a=https://the-real-sauce.itch.io/2d-side-scrolling-in-renpy-lite}(   HERE   ){/a}, Also keep an eye on future projects, the pro version of the template is close to release aswell and will contain many features. "
+            "text": "The end of the year, as we turn the page on 2024, I hope you have a {b}HAPPY NEW YEAR!{/b} Be safe, drink responsibly and if your out get home safe! Also if you havent seen it the lit version of 2D Side Scroller {a=https://the-real-sauce.itch.io/2d-side-scrolling-in-renpy-lite}(   HERE   ){/a}, Also keep an eye out on future projects AND the pro version of 2D Side Scroller thats right around the corner this up new year. "
         }
     ],
-    "img2": "https://thesauce00.github.io/main_bulletin/Christmas/1_2.jpg"
+    "img2": "https://thesauce00.github.io/main_bulletin/New Years/1_2.jpg"
 }
